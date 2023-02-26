@@ -549,25 +549,24 @@
                 placeholder="Text input"
               ></textarea>
             </div>
-            <input
-              class="input-check visually-hidden"
-              type="checkbox"
-              id="policy"
-              name="check-text"
-              value="true"
-              required
-            />
-            <label for="policy" class="check-text"
-              ><span
-                ><svg class="check-icon" width="10" height="8">
-                  <use href="./images/sprite.svg#icon-Vector"></use></svg
-              ></span>
-              <p>
-                I accept the terms and conditions of the
-                <a class="policy-link" href="#"> Privacy Policy</a>
-              </p></label
-            >
-
+            <div class="modal-field-check">
+              <input
+                class="input-check visually-hidden"
+                type="checkbox"
+                id="policy"
+                name="check-text"
+                value="true"
+                required
+              />
+              <label for="policy" class="check-text"
+                ><span
+                  ><svg class="check-icon" width="10" height="8">
+                    <use href="./images/sprite.svg#icon-Vector"></use></svg
+                ></span>
+                I accept the terms and conditions of the&nbsp;
+                <a href="#" class="privacy-policy">Privacy Policy</a>
+              </label>
+            </div>
             <button type="submit" class="modal-btn-submit">Send</button>
           </form>
         </div>

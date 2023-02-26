@@ -719,13 +719,15 @@ img {
 .modal-message:focus {
   border: 1px solid #4d5ae5;
 }
+.modal-field-check {
+  margin-bottom: 24px;
+}
 .check-text {
   display: flex;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
-  margin-bottom: 24px;
-  text-decoration-line: underline;
+
   color: var(--color-checkbox);
 }
 .modal-btn-submit {
@@ -771,7 +773,13 @@ img {
   border: none;
   fill: var(--color-light-bgc);
 }
-
+.privacy-policy {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: var(--color-bgc-btn);
+}
 /* .check-text::before {
   content: '';
   width: 16px;
